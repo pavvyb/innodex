@@ -1,0 +1,19 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC1aVN0sTNSuj41lyuE_U_wCJktPz7Ubgo",
+    authDomain: "inno-dex.firebaseapp.com",
+    projectId: "inno-dex",
+    storageBucket: "inno-dex.appspot.com",
+    messagingSenderId: "189984302143",
+    appId: "1:189984302143:web:f8da6dce3195a740bd048a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>

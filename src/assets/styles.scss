@@ -1,0 +1,50 @@
+@import "./variables.scss";
+
+html { 
+    background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.helper {
+    width: 100%;
+}
+.mt-small {
+    margin-top: 25px;
+}
+.field {
+    width: 60%;
+    height: 2vw;
+    text-align: center;
+}
+.btn {
+    width: 60%;
+    height: 2vw;
+    cursor: pointer;
+}
+.card {
+    border-radius: 2%;
+    background-color: white;
+    width: 25vw;
+    height: 20vw;
+
+    .header {
+        font-size: 32px;
+    }
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+body{
+    color: $main-color;
+}
